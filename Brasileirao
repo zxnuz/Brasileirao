@@ -1,0 +1,175 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirão</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background-color: ;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .content h2 {
+            color: blue;
+            margin-bottom: 10px;
+        }
+        
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: blue;
+            color: #fff;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brasileirão</h1>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <h2>Últimos Campeões</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>2023</th>
+                        <th>Palmeiras</th>
+                        <th>Abel Ferreira</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td>Palmeiras</td>
+                        <td>Abel Ferreira</td>
+                    </tr>
+                    <!-- Add more rows for recent champions -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="content">
+            <h2>Sobre o Brasileirão</h2>
+            <p>O Campeonato Brasileiro, também conhecido como Brasileirão, é a principal competição de futebol do Brasil, reunindo os melhores clubes do país em uma acirrada disputa pelo título nacional. Com sua história rica e emocionante, o Brasileirão atrai milhões de torcedores e é considerado um dos campeonatos mais prestigiados do mundo.
+            </p>
+            <!-- Add more details about the trophies -->
+        </div>
+        
+        <div class="content">
+            <h2>Jogadores Destaque</h2>
+            <p>Endrick (17)</p>
+            <p>Paulinho (23)</p>
+            <p>Luis Suárez (37)</p>
+            <!-- Add more information about standout players -->
+        </div>
+        
+        <div class="content">
+            <h2>Clubes e Técnicos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clube</th>
+                        <th>Técnico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clube X</td>
+                        <td>Nome do Técnico</td>
+                    </tr>
+                    <!-- Add more rows for clubs and managers -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="content">
+            <h2>Classificação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Clube</th>
+                        <th>Pontos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Palmeiras</td>
+                        <td>70</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Grêmio</td>
+                        <td>68</td>
+                    </tr>
+                    <!-- Add more rows for classification -->
+                </tbody>
+            </table>
+        </div>
