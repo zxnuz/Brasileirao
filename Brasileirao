@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
         /* Global Styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            background-color: blue;
             color: #333;
         }
         
@@ -39,7 +39,7 @@
         }
         
         .content {
-            background-color: #fff;
+            background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -169,7 +169,16 @@
                         <td>Grêmio</td>
                         <td>68</td>
                     </tr>
-                    <!-- Add more rows for classification -->
+                    <tr>
+                        <td>3</td>
+                        <td>Atlético Mineiro</td>
+                        <td>66</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Flamengo</td>
+                        <td>66</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
