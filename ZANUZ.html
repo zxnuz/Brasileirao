@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirão</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: blue;
+            color: #333;
+        }
+        
+        header {
+            background-color: ;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .content h2 {
+            color: blue;
+            margin-bottom: 10px;
+        }
+        
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: blue;
+            color: #fff;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        header img {
+            width: 60px; 
+            position: absolute;
+            right: 27%;
+            margin-bottom: 10px; 
+        }
+
+        .team-logo {
+            width: 1.3em;
+            height: 1.3em;
+            margin-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="brasileirao.png" alt="Logo do Brasileirão">
+        <h1>Campeonato Brasileiro</h1>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <h2>Tabela de Classificação</h2>
+            <p>Clique no botão abaixo para ver a tabela de Classificação dos respectivos anos:</p>
+            <a href="tabela24.html" class="button">Série A 24</a>
+            <a href="tabela23.html" class="button">Série A 23</a>
+            <a href="tabela22.html" class="button">Série A 22</a>
+            <a href="tabela21.html" class="button">Série A 21</a>
+            <br><br>
+            <a href="tabelaB24.html" class="button">Série B 24</a>
+            <a href="tabelaB23.html" class="button">Série B 23</a>
+            <a href="tabelaB22.html" class="button">Série B 22</a>
+            <a href="tabelaB21.html" class="button">Série B 21</a>
+        </div>
+        <div class="content">
+            <h2>Últimos Campeões</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>2023</th>
+                        <th><img src="palmeiras.png" alt="Escudo Palmeiras" class="team-logo">Palmeiras</th>
+                        <th>Abel Ferreira</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022</td>
+                        <td><img src="palmeiras.png" alt="Escudo Palmeiras" class="team-logo">Palmeiras</td>
+                        <td>Abel Ferreira</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td><img src="mineiro.png" alt="Escudo Mineiro" class="team-logo">Atlético Mineiro</td>
+                        <td>Cuca</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td><img src="flamengo.png" alt="Escudo Flamengo" class="team-logo">Flamengo</td>
+                        <td>Rogério Ceni</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td><img src="flamengo.png" alt="Escudo Flamengo" class="team-logo">Flamengo</td>
+                        <td>Jorge Jesus</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="content">
+            <h2>Maiores Artilheiros</h2>
+            <p><strong>Roberto Dinamite - 190 gols</strong></p>
+            <p><strong>Fred - 158 gols</strong></p>
+            <p><strong>Romário - 154 gols</strong></p>
+            <p><strong>Edmundo - 153 gols</strong></p>
+            <p><strong>Zico - 135 gols</strong></p>
+        </div>
+        
+        <div class="content">
+            <h2>Sobre o Brasileirão</h2>
+            <p>O Campeonato Brasileiro, também conhecido como Brasileirão, é a principal competição de futebol do Brasil, reunindo os melhores clubes do país em uma acirrada disputa pelo título nacional. Com sua história rica e emocionante, o Brasileirão atrai milhões de torcedores e é considerado um dos campeonatos mais prestigiados do mundo.</p>
+        </div>
+        
+        <div class="content">
+            <h2>Todos os Campeões</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clube</th>
+                        <th>Títulos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="palmeiras.png" alt="Escudo Palmeiras" class="team-logo"><strong>Palmeiras</strong></td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td><img src="santos.png" alt="Escudo Santos" class="team-logo"><strong>Santos</strong></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td><img src="flamengo.png" alt="Escudo Flamengo" class="team-logo"><strong>Flamengo</strong></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td><img src="corinthians.png" alt="Escudo Corinthians" class="team-logo"><strong>Corinthians</strong></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td><img src="saopaulo.png" alt="Escudo São Paulo" class="team-logo"><strong>São Paulo</strong></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td><img src="cruzeiro.png" alt="Escudo Cruzeiro" class="team-logo"><strong>Cruzeiro</strong></td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="fluminense.png" alt="Escudo Fluminense" class="team-logo"><strong>Fluminense</strong></td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="vasco.png" alt="Escudo Vasco" class="team-logo"><strong>Vasco</strong></td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="mineiro.png" alt="Escudo Mineiro" class="team-logo"><strong>Atlético Mineiro</strong></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="internacional.png" alt="Escudo Internacional" class="team-logo"><strong>Internacional</strong></td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="bahia.png" alt="Escudo Bahia" class="team-logo"><strong>Bahia</strong></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="botafogo.png" alt="Escudo Botafogo" class="team-logo"><strong>Botafogo</strong></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="gremio.png" alt="Escudo Grêmio" class="team-logo"><strong>Grêmio</strong></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="coritiba.png" alt="Escudo Coritiba" class="team-logo"><strong>Coritiba</strong></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><img src="guarani.png" alt="Escudo Guarani" class="team-logo"><strong>Guarani</strong></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><img src="athletico.png" alt="Escudo Athletico Paranaense" class="team-logo"><strong>Athletico</strong></td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
